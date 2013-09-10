@@ -5,9 +5,29 @@ LWR2weight
     http://imasdemase.com
 
 
+What is it?
+===========
+
 LWR2weight is a tool for computing the weight of a length frequency distribution of fishes from the length-weight relationship (LWR) of its species. This is a common calculation in fisheries science but the main purpose of LWR2weight is to help in fishing surveys when the sample weight of a length frequency distribution is missing (lost, unrcorded or unreliable due to mistakes while recording the data)
 
-LWR2weight stores the LWR data (species, geographical area, length range and n,a,b and r parameters for a given LWR) in a sqlite file, making possible to add more LWR's not only for other species but for different geographical areas of the same species.
+LWR2weight stores the LWR data (species, geographical area, length range and n,a,b and r parameters for a given LWR, as well as the bibliographical source of the data) in a sqlite database, making possible to add more LWR's not only for other species but for different geographical areas of a species.
+
+FEATURES
+========
+
+- Calculation of the weight of length frequency distributions of fishes from the LWR of the species.
+- Cross-checking of length distribution-LWR prediction range to prevent extrapolation.
+
+
+DEPENDENCIES
+============
+
+TODO
+
+INSTALL/UNINSTALL
+=================
+
+TODO
 
 CHANGELOG
 =========
