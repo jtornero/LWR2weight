@@ -8,7 +8,7 @@ LWR2Weight
 What is it?
 ===========
 
-LWR2Weight is a tool for computing the Weight of a length frequency distribution of fishes from the length-Weight relationship (LWR) of its species. This is a common calculation in fisheries science but the main purpose of LWR2Weight is to help in fishing surveys when the sample Weight of a length frequency distribution is missing (lost, unrcorded or unreliable due to mistakes while recording the data). Despite this, LWR2Weight main purpose is about gaining skill in python programming and git.
+LWR2Weight is a tool for computing the Weight of a length frequency distribution of fishes from the length-Weight relationship (LWR) of its species. This is a common calculation in fisheries science but the main purpose of LWR2Weight is to help in fishing surveys when the sample Weight of a length frequency distribution is missing (lost, unrcorded or unreliable due to mistakes while recording the data, happens seldom of course :) ). Despite this, LWR2Weight main purpose is about gaining skills in python programming as well as git.
 
 LWR2Weight stores the LWR data (family, species, geographical area and type of measurement, length range and n,a,b and r parameters for a given LWR, as well as the bibliographical source of the data) in a sqlite database, making possible to add more LWR's not only for other species but for different geographical areas of a species.
 
@@ -42,7 +42,7 @@ First working release. Still lot of things/improvements to do:
 - License and acknowledgement actions in menu must work
 - PEP8tize all the code
 - Edit/add Length-Weight Relationships (Single/batch)
-- Get bibliographic info for the LWR2Weight
+- Get bibliographic info for the Length-Weight Relationship
 
 An initial dataset of Length-Weight Relationships is provided in the file LWR.data. The data comes from the article:
 
